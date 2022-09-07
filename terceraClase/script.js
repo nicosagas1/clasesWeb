@@ -1,5 +1,5 @@
-console.log("Hola");
-
+//console.log("Hola");
+/**
 // variables
 
 var x = 41;
@@ -40,4 +40,33 @@ var cond = 10 > 5; // true
 // < menor a que 
 var cod2 = 20 < 50; // false
 
-var respuesta = prompt("Hola Alan");
+// ===  igual a que (comparacion de valor)
+// = asignacion de v
+* 
+*/
+var nombre = prompt("Como te llamas?");
+
+var edad  = prompt("Que edad tenes?");
+
+if(edad>=18){
+    alert ("Podes ingresar");
+    
+}else{
+    alert("No podes ingresar");
+    alert("No tenes acseso de edad");
+}
+
+//El usuario tiene que adivinar un numero secreto
+//Creamos una variable llamada secreto y le damos un valor un numero
+// Creamos un prompt preguntando al usuario que adivine el numero
+//Si el numero ingresado por el usuario es igual que el numero secreto, mostramos en un alert acertaste!
+//Si el numero ingresado por el usuario no es igual que el numero secreto, mostramos en un alert no acertaste!
+
+var secreto = 10;
+var respuesta = prompt("Adivine el número");
+
+if(respuesta==secreto){
+console.log("acertaste");
+}else{
+console.log("No acertaste");
+}
